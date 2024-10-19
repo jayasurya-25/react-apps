@@ -1,0 +1,85 @@
+/* General form container styling */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Flexbox styling for label and input on the same line */
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Label styling to align with input */
+label {
+    width: 100px;  /* Set a fixed width for the label */
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Input field styling */
+input {
+    flex: 1;  /* Input will take up remaining space */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Overall page container styling */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Aligning the heading */
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}

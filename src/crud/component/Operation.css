@@ -1,0 +1,42 @@
+/* Styling for the main container */
+.operation {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styling for each list item */
+.operation li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+/* Link styling */
+.operation a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+.operation a:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .operation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .operation li {
+        margin: 10px 0;
+    }
+}
